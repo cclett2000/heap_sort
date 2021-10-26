@@ -12,14 +12,14 @@ import java.util.Collections;
 
 public class HeapSort {
     public static void main(String[] args) throws FileNotFoundException {
-        final long startRunRec = System.currentTimeMillis();
+        final long startRunRec = System.currentTimeMillis(); // start runtime
 
         FileHandler fileData = new FileHandler(); // create obj from file handler/import its arrayList
         ArrayList<Integer> data = fileData.getData(); // get array from file handler
 
         SortHeap(data); // run the sorting algorithm
 
-        final long calcRunRec = (System.currentTimeMillis() - startRunRec);
+        final long calcRunRec = (System.currentTimeMillis() - startRunRec); // finish/cal runtime
         System.out.println("\n>>> Finished with a runtime of " + calcRunRec + "ms");
 
     }
