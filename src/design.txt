@@ -1,0 +1,10 @@
+***Design for heap sort (ish...will probably change)***
+HeapSort = Main
+HeapPrep = child
+    - FileHandler
+    - HeapBuilder
+        - MaxHeapify (Array, array index)
+            - ^ binary tree BS
+            - parent = i/2; left = 2*i; right = 2*i + 1
+                ^ these are pos in data array
+                ^ check for i=0?
