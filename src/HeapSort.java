@@ -1,3 +1,10 @@
+/*
+ * Charles Lett Jr.
+ * October 20, 2021
+ * Implementation of the heap sort algorithm
+ * Helpful Link: https://algorithms.tutorialhorizon.com/heap-sort-java-implementation/
+ */
+
 import java.io.FileNotFoundException;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
